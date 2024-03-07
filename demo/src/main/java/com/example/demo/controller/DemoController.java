@@ -11,4 +11,9 @@ public class DemoController {
 	{
 		return "you are working in spring - boot demo app";
 	}
+	@GetMapping("/welcome")
+	String welcomeMessage()
+	{
+		return "Welcome to Spring Boot Project World!!";
+	}
 }
